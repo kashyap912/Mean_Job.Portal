@@ -1,0 +1,51 @@
+.Home {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 600px;
+  grid-template-rows: 1;
+}
+
+.Home-left {
+  padding: 30px 100px 30px 50px; 
+  height: 200px;
+  width: 300px;
+  
+  
+}
+
+
+
+.Home-right {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 30%;
+  grid-column: 2 / 3; 
+  
+}
+ 
+/* .container{
+  background-image: url(./images/img1.jpg); 
+  width: auto;
+  align-self: center;
+  overflow: hidden;
+  background-color: rgb(197, 130, 31);
+
+}  */
+
+.Home-up{
+  margin-bottom: 30%;
+}
+
+.Home-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.Home-pad{
+  padding-bottom: 0%;
+  border-bottom: 0px;
+}
